@@ -1,0 +1,26 @@
+@import"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap";
+@import"https://fonts.googleapis.com/icon?family=Material+Icons";
+
+#app {
+   justify-content: center;
+   display: grid;
+   align-items: center;  
+   background-color: rgba(255, 255, 255, 0.8); /* Putih dengan transparansi 30% */
+  backdrop-filter: blur(50px); /* Efek blur */
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+body {
+   display: flex;
+   place-items: center;
+   justify-content: center;
+   width: 100%;
+  height: 100%;
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
